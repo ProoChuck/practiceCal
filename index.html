@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <title>MyWebPage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jav.js"></script>
+    </head>
+    <body>
+        <h1>Basic Calculator</h1>
+        <p>4 available functions:</p>
+        <ol>
+            <li>Addition</li>
+            <li>Subtraction</li>
+            <li>Multiplication</li>
+            <li>Division</li>
+        </ol>
+        <form>
+            <label for="fname">First number:</label><br>
+            <input type="text" id="num1" name="fname"><br>
+            <label for="lname">Second number:</label><br>
+            <input type="text" id="num2" name="lname">
+            <br>
+        <button type="button" onclick="add()">Add</button>
+        <button type="button" onclick="subtract()">Subtract</button>
+        <button type="button" onclick="multiply()">Multiply</button> 
+        <button type="button" onclick="divide()">Divide</button> 
+        </form>
+        <p2>Answer:</p2>
+        <p3 id="result" style="color:blueviolet"></p3>
+    </body>
+</html>
